@@ -1,0 +1,69 @@
+@import "../../src/app/globals.scss";
+
+.navbar {
+  height: 90px;
+  max-width: 100%;
+  margin: auto;
+  z-index: 3;
+  color: white;
+  background-color: #233b29;
+
+  .wrapper {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: space-around;
+
+    @include mobile {
+      justify-content: flex-end;
+      padding: 20px;
+    }
+
+    span {
+      font-weight: bold;
+
+      @include mobile {
+        display: none;
+      }
+    }
+
+    .social {
+      display: flex;
+      gap: 20px;
+    }
+    .logo{
+      .inner_logo{
+        width: 90px;
+        height: 90px;
+      }
+    }
+
+    a {
+      position: relative;
+      z-index: 20;
+      pointer-events: auto;
+    }
+
+    .social a img {
+      pointer-events: auto;
+    }
+
+    img {
+      width: 25px;
+      height: 25px;
+    }
+  }
+}
+
+@media only screen and (max-width: 1281px) {
+  .navbar {
+    width: 100vw;
+
+    .wrapper {
+      .logo {
+        margin-left: 7%;
+      }
+    }
+  }
+}

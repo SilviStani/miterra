@@ -1,0 +1,29 @@
+@import "../../src/app/globals.scss";
+
+.parallax {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background-image: url("/assets/landscape.png");
+    background-size: cover;
+
+    h1 {
+        font-size: 100px;
+        color: #233b29;
+        text-shadow: 3px 3px 3px rgba(255, 255, 255, 0.575);
+
+        @include mobile {
+            font-size: 60px !important;
+            text-align: center;
+        }
+
+        @include desktop {
+            font-size: 80px;
+        }
+    }
+}
