@@ -26,4 +26,21 @@
             font-size: 80px;
         }
     }
+
+    /*
+    .mountains{
+        background-image: url("/assets/pasto_corto.png");
+        background-size: contain;
+        background-position: bottom;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        z-index: 3;
+        
+        @include mobile{
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+    }
+    */
 }

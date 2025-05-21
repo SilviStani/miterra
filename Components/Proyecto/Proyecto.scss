@@ -13,20 +13,22 @@
         .TextContainer {
             height: 85%;
             width: 90%;
-            
-            h2{
-                background-color:#233b29;
+
+            h2 {
+                background-color: #233b29;
                 font-size: 30px;
                 text-align: center;
                 letter-spacing: 1px;
                 padding: 2%;
             }
-            hr{
+
+            hr {
                 height: 0.5px;
                 background-color: white;
                 width: 100%;
             }
-            p{
+
+            p {
                 font-style: italic;
                 padding: 2%;
             }
@@ -40,4 +42,12 @@
         justify-content: center;
         align-items: center;
     }
+}
+
+.mapa {
+    transition: all 0.5s ease-in-out;
+}
+
+.mapa:hover {
+    transform: scale(1.05);
 }

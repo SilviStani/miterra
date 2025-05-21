@@ -13,13 +13,13 @@ const Parallax = () => {
     }
   );
   const yText = useTransform(scrollYProgress, [0, 1], ["0%", "500%"]);
-  const yBg = useTransform(scrollYProgress, [0, 1], ["0%", "100%"]);
+  
   return (
     <div className='parallax'
       ref={ref}>
       <motion.h1 style={{ y: yText }}>Proyecto</motion.h1>
       <motion.h1 style={{ y: yText }}>Tierra Serena</motion.h1>
-
+      {/*<motion.div className="mountains"></motion.div>*/}
     </div>
   )
 }

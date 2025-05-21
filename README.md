@@ -42,3 +42,5 @@ if it does not work: npm i sass@1.68.0
 react framer motion: npm install framer-motion
 Ityped: npm i ityped
 AOS: npm install aos --save
+Threejs
+emailjs: npm i @emailjs/browser
